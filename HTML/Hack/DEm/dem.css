@@ -1,0 +1,68 @@
+*{
+
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.pos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.leftcontainer{
+    background-color: #353a41;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 30vh;
+    box-shadow: 15px 5px 50px -1px rgba(0, 0, 0, 0.503);
+    
+
+
+}
+
+.logosite{
+    display: flex;
+    height: 70px;
+    width: 90%;
+    background-color: #353a41;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+
+.sitename{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #353a41;
+
+}
+
+.sitename > p{
+    background-color: #353a41;
+
+    padding: 5px;
+}
+
+.img{
+    background-color: #353a41;
+
+    height: 100%;
+    
+}
+.button{
+
+    background-color: saddlebrown;
+    
+}
