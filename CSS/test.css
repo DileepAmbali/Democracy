@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    background-color: red;
+    position: sticky;
+    height: 100vw;
+}
+
+.main {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
